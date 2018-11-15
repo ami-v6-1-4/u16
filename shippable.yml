@@ -1,11 +1,11 @@
 language: python
 
 runtime:
-  nodePool: dynamic__x86_64__Ubuntu_14_04__c4_large 
+  nodePool: default_node_pool
 
 build:
   pre_ci_boot:
-    image_name: drydock/u14 
+    image_name: drydock/u16
     image_tag: v6.1.4
     pull: true
     
